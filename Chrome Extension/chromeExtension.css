@@ -1,0 +1,73 @@
+:root {
+  --green: #5f9341;
+  --eggshell: #afdeee;
+  --white: #f5f5f5;
+  --cyan: #00ffff;
+  --lsg: #20b2aa;
+  --bright-blue: #0000ff;
+}
+
+body {
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: var(--green);
+    min-width: 400px; 
+}
+
+input {
+   border: 1px solid var(--green);
+   color: var(--green);
+   padding: 10px 5px;
+   margin: 2px;
+   box-sizing: border-box;
+   width: 100%;
+}
+
+#input-btn {
+    border: none;
+    background-color: var(--green);
+    color: var(--white);
+    margin: 2px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+}
+img{
+    margin-right: 5px;
+    max-height:32px;
+    background-color: var(--white);
+    border: none;
+}
+#box {
+    cursor:pointer;
+    background-color: var(--lsg) ;
+    padding: 40px;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    color: var(--white);
+    font-weight: bold;
+}
+/* STYLE THE LIST ACCORDING TO THE DESIGN */
+ul {
+    list-style-type: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+li {
+    margin-top: 10px;  
+}
+/* change the anchor tags inside the list element ONLY */
+li a {
+ color: var(--green);
+ text-align: left;
+ font-weight: 500;
+}
+#info {
+    list-style-type: square;
+    list-style-position: inside;
+}

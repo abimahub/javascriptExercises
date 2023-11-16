@@ -1,0 +1,35 @@
+:root {
+    --bg-colour: #1a7497;
+    --bg-colour-light: #1a749733;
+    --second-bg-colour: #b8c0ed;
+    --text-colour: #36454f;
+    --offwhite: #f8f9f1;
+    --offwhite-light: #f8f9f133;
+   --red: #b30000;
+   --black: #004040;
+   --bluey:  #5d37f6;
+   --lg: #daa52099;
+  }
+html, body {
+    background-color: var(--bg-colour);
+    color: var(--offwhite);
+    font-family: 'Courier New', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+button {
+    border: none;
+    color: var(--bg-colour);
+    background-color: var(--offwhite);
+    font-weight: 800;
+}
+button:disabled {
+    color: var(--bg-colour-light);
+    background-color: var(--offwhite-light);
+}
+
+a {
+    text-decoration: none;
+    color: var(--bg-colour);
+}

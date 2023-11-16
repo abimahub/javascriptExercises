@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weblink-saving Chrome Extension</title>
+    <link rel="icon" href="favicon.png">
+    <!-- <a href="https://www.flaticon.com/free-icons/space-ship" title="space ship icons">Space ship icons created by Ch.designer - Flaticon</a> -->
+    <link rel="stylesheet" href="chromeExtension.css">
+    <!-- *** clean copy of code in the index.xx files; worked examples in chromeExtension.xx files *** -->
+</head>
+<body>
+    <h3>Chrome Extension</h3>
+    <p>An example chrome extension built using a tutorial from Scrimba.<br>
+    <ul id="info">For deployment ensure:
+        <li>manifest is present and correct (correct files etc)</li>
+         <li>icon.png is present (whichever filetype, must be the same in the manifest)</li>
+         In Chrome:
+        <li>go to chrome://extensions/ in Chrome, then ensure developer mode is toggled on</li>
+        <li>click on Load Unpacked, then navigate to your working folder location</li>
+        <li>it will say 'no items match' or similar in the main pane, just check your folder is
+         noted below and press Select.</li>
+         <li>the extension should then be available to use locally (usually shows up top left)</li>
+         </ul></p>
+    <input type="text" id="input-el"><br>
+    <button id="input-btn"><img src="icon.png">save input</button><br>
+    <ul id="ul-el"></ul>
+    <script src="index.js"></script>
+</body>
+</html>

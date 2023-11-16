@@ -1,0 +1,88 @@
+:root {
+    --bg-colour: #e0afa8;
+    --second-bg-colour: #edbfb8;
+    --text-colour: #312b2b;
+    --player-name-input-colour: white;
+    --player-name-input-shadow: 0px 0px 3px #786060b1;
+    --start-btn-bg: #da4f3a;
+    --start-btn-border: #832a2a;
+    --start-btn-bg-hover: #ce9a91;
+    --player-name-input-text: #121212;
+  }
+
+  .dark-mode {
+    --bg-colour: #121212;
+    --second-bg-colour: #1b1919;
+    --text-colour: #e0afa8;
+    --bg-image: url(dark-bg.png);
+    --player-name-input-colour: #262321;
+    --player-name-input-shadow: 0px 0px 3px #ebbfbfb1;
+    --start-btn-bg: #e0afa8;
+    --start-btn-bg-hover: #c98e83;
+    --player-name-input-text: white;
+  }
+  
+ :target {
+    border: 2px solid #e39416;
+    background-color: #f3dd7a;
+  }
+
+body {
+    background-color: var(--bg-colour);
+    color: var(--text-colour);
+    font-family: 'Courier New', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+	justify-items: center;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    border-radius: 25px;
+    border-color: var(--start-btn-border);
+    background-color: var(--start-btn-bg);
+    color: var(--second-bg-colour)
+}
+#stage {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 50px;
+    border: 2px double midnightblue;
+    font-weight: bold;
+    color: midnightblue;
+}
+#fightButton {
+    background-color: aqua;
+    color: midnightblue;
+    border-color: midnightblue;
+    font-weight: bold;
+}
+#fruity {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 50px;
+    border: 2px double midnightblue;
+    font-weight: bold;
+    color: midnightblue;
+}

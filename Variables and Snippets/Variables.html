@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Variables.css" />
+    <link rel="icon" href="favicon.png">
+    <title>Variables in JavaScript</title>
+  </head>
+  <body>
+    <div class="grid">
+      <div></div>
+      <div>
+        <h2>Playing with injecting content using the DOM</h2>
+        <p id="greeting">Hello</p>
+        <p id="error">Error messages will appear here.</p>
+        <br />
+        <button onclick="errorMsg()">Purchase</button>
+      </div>
+      <div></div>
+    </div>
+    <!-- end of row -->
+    <div class="grid">
+      <div></div>
+      <div>
+        <h2>Manipulating Numbers</h2>
+        <span id="num1-el"></span>
+        <span id="num2-el"></span>
+        <br>
+        <br>
+        <button onclick="add()">Add</button>
+        <button onclick="subtract()">Subtract</button>
+        <button onclick="divide()">Divide</button>
+        <button onclick="multiply()">Multiply</button>
+        <br><br>
+        <span id="sum-el">Total= </span>
+        <br>
+        <button onclick="clearsum()">Clear</button>
+        <br>
+        <button onclick="getRndInteger(1,12)">help</button> 
+        <br><span id="greeting-el"></span>
+        <!-- playing with randomiser function -->
+      </div>
+      <div></div>
+    </div>
+    <!-- end of row -->
+    <div id="stage">
+      <h3>Emoji Fighter!</h3>
+      <button id="fightButton">Pick Fighters!</button>
+    </div> 
+    <!-- end of Emoji Fighter! -->
+    <div id="fruity">
+      <h3>Fruit Sorter</h3>
+      <p id="appleShelf"></p>
+      <p id="orangeShelf"></p>
+    </div>
+    <!-- end of fruity -->
+    <div id="buy-El"></div>
+    <!-- end of fruit sorter -->
+    <script src="Variables.js"></script>
+  </body>
+</html>

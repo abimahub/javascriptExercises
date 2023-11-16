@@ -1,0 +1,60 @@
+body {
+    font-family: 'Courier New', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+#info {
+  max-width: 300px;
+  text-align: center;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+	justify-items: center;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    text-align: center;
+}
+#pane {
+    background-image: url(pexels-olena-bohovyk-1772123.jpg);
+    background-size: cover;
+    max-width: 300px;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color:darkblue;
+}
+#incBtn, #decBtn {
+    font-size: 70px;
+    color:cornflowerblue;
+    background-color: darkblue;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;  
+}
+
+#saveBtn {
+    background: darkgreen;
+    color:aliceblue;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
